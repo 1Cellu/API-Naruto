@@ -12,5 +12,11 @@ namespace API_WEB.DAO
         }
 
         public DbSet<Ninja> Ninjas { get; set; } = null;
+
+        public DbSet<API_WEB.Models.Cla> Cla { get; set; }
+
+        public DbSet<API_WEB.Models.KekkeiGenkai> KekkeiGenkai { get; set; }
+
+        public DbSet<API_WEB.Models.Village> Village { get; set; }
     }
 }

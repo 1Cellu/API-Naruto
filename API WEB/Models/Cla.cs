@@ -1,4 +1,5 @@
-﻿namespace API_WEB.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+namespace API_WEB.Models
 {
     public class Cla
     {
